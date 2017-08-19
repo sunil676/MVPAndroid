@@ -2,11 +2,13 @@
 Exploring MVP in Android. Used features below.
 ## Using library
 
-- [RxJava](https://github.com/ReactiveX/RxJava)
+- [RxJava2](https://github.com/ReactiveX/RxJava)
 - [RxAndroid](https://github.com/ReactiveX/RxAndroid)
-- [Retrofit](https://github.com/square/retrofit)
+- [Retrofit2](https://github.com/square/retrofit)
 - [Dagger2](https://github.com/google/dagger)
 - [Green DAO](http://greenrobot.org/greendao/)
+- [ButterKnife](https://github.com/JakeWharton/butterknife)
+- [Material Design]
 
 <img src="https://github.com/sunil676/KotlinMVPAndroid/blob/master/retrofit_gif.gif" width="250" height="450"/>
 
