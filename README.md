@@ -10,7 +10,8 @@ Exploring MVP in Android. Used features below.
 - [ButterKnife](https://github.com/JakeWharton/butterknife)
 - [Material Design](https://material.io/)
 
-<img src="https://github.com/sunil676/KotlinMVPAndroid/blob/master/retrofit_gif.gif" width="250" height="450"/>
+<img src="https://github.com/sunil676/MVPAndroid/blob/master/Screenshot_20170819-211727.png" width="250" height="450"/>
+<img src="https://github.com/sunil676/MVPAndroid/blob/master/Screenshot_20170819-211940.png" width="250" height="450"/>
 
 Here is article link written by me:
 
