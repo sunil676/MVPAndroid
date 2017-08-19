@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PayUAndroidChallenge</string>
+    <string name="pledged">Pledged:</string>
+    <string name="backers">Backers:</string>
+    <string name="search_hint">Sreach Title</string>
+    <string name="sort">Sort</string>
+    <string name="filter">Filter</string>
+</resources>

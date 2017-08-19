@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/search_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:singleLine="true"
+        android:inputType="text"
+        android:layout_toLeftOf="@+id/relative_sort"
+        android:drawableLeft="@drawable/search"
+        android:layout_margin="8dp"
+        android:hint="@string/search_hint"/>
+
+       <RelativeLayout
+           android:layout_marginTop="8dp"
+           android:layout_centerHorizontal="true"
+           android:layout_toLeftOf="@+id/relative_filter"
+           android:id="@+id/relative_sort"
+           android:layout_width="50dp"
+           android:layout_height="40dp">
+
+           <TextView
+               android:id="@+id/sort"
+               android:text="@string/sort"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content" />
+
+           <ImageView
+               android:src="@drawable/filter"
+               android:layout_below="@+id/sort"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content" />
+
+       </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/relative_filter"
+        android:layout_width="50dp"
+        android:layout_height="40dp">
+
+        <TextView
+            android:id="@+id/filter"
+            android:text="@string/filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:src="@drawable/filter"
+            android:layout_below="@+id/filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_below="@+id/search_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </android.support.v7.widget.RecyclerView>
+
+
+</RelativeLayout>
