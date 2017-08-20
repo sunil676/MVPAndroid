@@ -15,7 +15,7 @@ Exploring MVP in Android. Used features below.
 
 Here is article link written by me:
 
-http://mobologicplus.com/api-call-by-using-retrofit-rxjava-and-rxandroid-in-kotlin-android/
+http://mobologicplus.com/exploring-greendao-orm-database-reactive-rxjava-android/
 
 Copyright 2017 Sunil Gupta
 
